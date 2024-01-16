@@ -1,0 +1,106 @@
+#container{
+	background-image: linear-gradient(#2857a4,#403066);
+	height: 800px;
+	width: auto;
+	color: white;
+}
+.contact{
+	display: flex;
+	justify-content: center;
+	
+}
+.contact span{
+	font-size: 40px;
+	margin-top: 30px;
+	margin-left: 10px;
+}
+.mb-75{
+	margin-bottom: 150px;
+}
+.contact-container{
+	display: flex;
+
+
+}
+#contact-form input,textarea{
+display: flex;
+max-width: 90%;
+border:0px solid transparent ;
+border-bottom: 2px solid white;
+	width: 90%;
+	width: 600px;
+	padding:  4px 10px;
+	margin: 30px;
+	color: #d9dcdd;
+	background: transparent;
+	line-height: 1.5rem;	
+}
+#contact-form button[type="submit"]{
+	background: transparent;
+	font-size: 1.0rem;
+	border: 2px solid white;
+	margin-top: 5%;
+	margin-left: 200px;
+	margin-bottom: 15px;
+}
+
+#my-details-container {
+	padding-left:  80px;
+	font-size: 1rem;
+
+}
+#my-details-container h3{
+	background: transparent;
+	font-size: 2rem;
+	
+}
+
+
+
+.my-details-info-container i{
+ color: white;
+ margin-right: 10px;
+ font-size: 20px;
+}
+.my-details-info-container p{
+font-size: 1rem;
+color: #d9dcdd;
+
+}
+.my-details-info-container span{
+	margin-left: 0.4rem;
+	
+}
+.my-details-info-container{
+	font-size: 1rem;
+	margin-bottom: 20px;
+	color: #d9dcdd;
+}
+.social-icons{
+	display: flex;
+	flex-direction: column;
+	text-decoration: none;
+	padding-right: 15px;
+}
+.social-icons li{
+	padding-left: 10px;
+	
+	
+	
+	}
+.social-icons li a i {
+    font-size: 2rem;
+    color: white;
+    margin: 20px;
+    }
+.nav-menu li a i:hover{
+	color: pink;
+}
+
+
+.nav-menu li a i{
+	transition: color 0.5s, border-bottom 5s;
+}
+
+
+	
